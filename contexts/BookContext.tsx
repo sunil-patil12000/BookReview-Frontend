@@ -2,8 +2,7 @@
 
 import type React from "react"
 import { createContext, useContext, useState, useEffect } from "react"
-
-const API_URL = "http://localhost:5000/api";
+import { API_URL, getApiUrl } from "@/lib/env";
 
 export interface Review {
   id: string
